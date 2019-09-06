@@ -1,5 +1,5 @@
 # Object-Detection-with-TPU-and-Pi
-Detect common objects of interests for autonomous vehicle, e.g. car, person, traffic light, stop sign, etc. using Coral(Google) new TPU achieving 4 TOPS at 0.5 watts, and tiny SBC such as new Raspberry Pi 4, a perfect combo for fast deep learning inference on the move or low power.
+Detect common objects of interests for autonomous vehicle, e.g. car, person, traffic light, stop sign, etc. using Coral(Google) new TPU achieving 4 TOPS at 0.5 watts and tiny SBC such as new Raspberry Pi 4, a perfect combo for fast deep learning inference on the move or low power.
 
 ## Demo Video
 [Link to Youtube](https://www.youtube.com/watch?v=yIPw2N0GQg8)
