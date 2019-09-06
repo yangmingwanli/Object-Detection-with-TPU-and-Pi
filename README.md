@@ -8,6 +8,8 @@ Coral(Google) new TPU achieving 4 TOPS at 0.5 watts, with tiny SBC such as new R
 
 As seen from the youtube video above, it maintains very respectable 20~30 FPS, detecting car, person, traffic light, etc. 
 
+![Alt text](detect.png?raw=true "Title")
+
 ## Hardware Used
 [Coral TPU USB accelerator](https://coral.withgoogle.com/products/accelerator/)
 
