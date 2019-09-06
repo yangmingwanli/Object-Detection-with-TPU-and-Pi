@@ -1,7 +1,5 @@
 # Object-Detection-with-TPU-and-Pi
-Detect common objects of interests for autonomous vehicle, e.g. car, person, traffic light, stop sign, etc.
-
-Coral(Google) new TPU achieving 4 TOPS at 0.5 watts, with tiny SBC such as new Raspberry Pi 4, is a perfect combo for fast deep learning inference on the move or low power.
+Detect common objects of interests for autonomous vehicle, e.g. car, person, traffic light, stop sign, etc. using Coral(Google) new TPU achieving 4 TOPS at 0.5 watts, and tiny SBC such as new Raspberry Pi 4, a perfect combo for fast deep learning inference on the move or low power.
 
 ## Demo Video
 [Link to Youtube](https://www.youtube.com/watch?v=yIPw2N0GQg8)
@@ -22,11 +20,13 @@ As seen from the youtube video above, it maintains very respectable 20~30 FPS, d
 ## Model Used
 MobileNet V2 trained on COCO dataset and optimized for TPU inference
 
-## Try it out
+## What scipt does:
+Detect objects of interests, warning if object is near center of image, non-maximum suppression.
 
+## Try it out
 Burn Coral [prebuilt image](https://github.com/google-coral/edgetpu-platforms#prebuilt-images-for-raspberry-pis) to Raspberry Pi 4. 
 
-cd to examples-camera/gstreamer folder and replace detect.py with one in this repo.
+cd to examples-camera/gstreamer folder and copy over detect.py in this repo.
 
 Connect all hardwares, get into front seat of a car.
 
